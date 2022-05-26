@@ -34,5 +34,6 @@ jobs:
         run: |
           node -v
           npm -v
+          yarn -v
           echo Add other actions to build,
           echo test, and deploy your project.
