@@ -35,6 +35,6 @@ jobs:
           npm -v
           yarn -v
           echo ${{ github.sha }} --- ,
-          echo ${{ github.ref }},
+          echo ${{ GITHUB_REF/refs\/tags\// }},
           echo Add other actions to build,
           echo test, and deploy your project.
